@@ -78,3 +78,5 @@ fix-backend-cors-enrollment
 This branch contains CORS configuration updates for enrollment module.
 for pull request
  main
+
+ Trigger Azure deployment test
