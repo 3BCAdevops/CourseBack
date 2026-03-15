@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "students")
 public class Student {
+    // Required by JPA
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

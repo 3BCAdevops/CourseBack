@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "enrollments")
 public class Enrollment {
-
+    // Required by JPA
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

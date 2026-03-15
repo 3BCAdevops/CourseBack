@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 public class Course {
+    // Required by JPA for entity instantiation
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
